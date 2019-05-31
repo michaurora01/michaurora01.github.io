@@ -7,7 +7,6 @@ body {
    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
    font-weight: 300;
    color: #333;
-	 
 }
 
 a:link {
@@ -96,9 +95,9 @@ body {
 	color: #fff;
 	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
 	background-size: 400% 400%;
-	-webkit-animation: Gradient 15s ease infinite;
-	-moz-animation: Gradient 15s ease infinite;
-	animation: Gradient 15s ease infinite;
+	-webkit-animation: Gradient 5s ease infinite;
+	-moz-animation: Gradient 5s ease infinite;
+	animation: Gradient 5s ease infinite;
 }
 
 @-webkit-keyframes Gradient {
@@ -137,8 +136,7 @@ body {
 	}
 }
 
-h1,
-h6 {
+h1, h6 {
 	font-family: 'Open Sans';
 	font-weight: 300;
 	text-align: center;
