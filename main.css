@@ -10,15 +10,6 @@ body {
 	 padding-left: 11em;
 }
 
-h1 {
-	font-size: 50px;
-}
-
-p {
-	font-size: 20px;
-	color: #E321A9;
-}
-
 ul.navbar {
     list-style-type: none;
     padding: 0;
@@ -43,4 +34,13 @@ a:link {
 }
 a:visited {
 	color: purple;
+}
+
+h1 {
+	font-size: 50px;
+}
+
+p {
+	font-size: 20px;
+	color: #E321A9;
 }
