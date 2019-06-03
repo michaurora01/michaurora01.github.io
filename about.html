@@ -19,7 +19,7 @@
     <a href="index.html"><i class="fa fa-fw fa-home"></i> Home page</a>
     <a href="projects.html"><i class="fa fa-keyboard-o"></i> Projects</a>
     <a href="about.html"><i class="fa fa-info-circle"></i> About</a>
-    <a href=# style="float:right"><i class="fa fa-moon-o"></i> Night Mode</a>
+    <a onclick="changeBGColor()" style="float:right"><i class="fa fa-moon-o"></i> Night Mode</a>
   </div>
 
   <!-- Main content -->
@@ -37,4 +37,9 @@
   </div>
 
 </body>
+<script>
+function changeBGColor(){
+  document.body.style.background = "#737373";
+}
+</script>
 </html>
